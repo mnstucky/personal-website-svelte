@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
 </script>
 
 <header>
@@ -21,9 +19,9 @@
 
 <style>
 	header {
-		top: 0px;
-		right: 0px;
-		left: 0px;
+		top: 0;
+		right: 0;
+		left: 0;
 		width: 100vw;
 		height: 5rem;
 		background: var(--clr-alt-background);

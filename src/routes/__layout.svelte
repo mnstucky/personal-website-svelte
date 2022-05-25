@@ -23,3 +23,15 @@
 <footer>
 	<aside>&copy; 2021 - Matt Stucky</aside>
 </footer>
+
+<style>
+	footer {
+		margin-top: 1rem;
+		text-align: center;
+		font-family: 'Noto Sans JP', sans-serif;
+	}
+
+	main {
+		margin-top: 1rem;
+	}
+</style>

@@ -18,7 +18,7 @@
 	<title>Portfolio</title>
 </svelte:head>
 
-<article class="portfolioitem">
+<article class="portfolio-item">
 	<h2 class="blockheading"><a href="https://cartagena-decor.vercel.app/">Cartagena Decor</a></h2>
 	<figure>
 		<figcaption>A fully custom e-commerce platform with the following features:</figcaption>
@@ -43,9 +43,9 @@
 	<img src="/Cartagena1.png" alt="Shop display for Cartagena Decor website" />
 </article>
 
-<hr class="portfoliobar" />
+<hr class="portfolio-bar" />
 
-<article class="portfolioitem">
+<article class="portfolio-item">
 	<h2 class="blockheading">
 		<a href="https://competent-jones-24a1bd.netlify.app/">Weather App</a>
 	</h2>
@@ -64,9 +64,9 @@
 	<img src="/WeatherApp.png" alt="Weather application in action" />
 </article>
 
-<hr class="portfoliobar" />
+<hr class="portfolio-bar" />
 
-<article class="portfolioitem">
+<article class="portfolio-item">
 	<h2 class="blockheading">
 		<a href="https://stucky-back-end-week11.herokuapp.com/">Automobile Storefront</a>
 	</h2>
@@ -85,3 +85,43 @@
 	</figure>
 	<img src="/Zippys.png" alt="Storefront administration section display" />
 </article>
+
+<style>
+	.portfolio-item {
+		font-family: 'Noto Sans JP', sans-serif;
+		display: grid;
+		grid-template-rows: 80px auto;
+		grid-template-columns: auto 500px;
+	}
+
+	.portfolio-item h2 {
+		grid-column: 1 / span 1;
+		grid-row: 1 / span 1;
+	}
+
+	.portfolio-item figure {
+		grid-column: 1 / span 1;
+		grid-row: 2 / span 1;
+		margin-left: 0;
+		font-size: clamp(1rem, 1.2rem, 2vw);
+		line-height: 1.7;
+	}
+
+	.portfolio-item img {
+		grid-column: 2 / span 1;
+		grid-row: 2 / span 1;
+		width: min(500px, 90vw);
+	}
+
+	@media only screen and (max-width: 1000px) {
+		.portfolio-item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	.portfolio-bar {
+		margin-top: 1.5rem;
+	}
+</style>
