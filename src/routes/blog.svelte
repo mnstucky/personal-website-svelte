@@ -12,10 +12,36 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
+	export const load = async ({ fetch }) => {
+		const posts = await fetch('/api/posts.json')
+		const allPosts = await posts.json()
+
+		return {
+			props: {
+				posts: allPosts
+			}
+		}
+	}
+</script>
+
+<script>
+	export let posts
 </script>
 
 <svelte:head>
 	<title>Blog</title>
 </svelte:head>
 
-<h2 class="blockheading">Blog Coming Soon...</h2>
+<h2 class="blockheading">Blog</h2>
+<ul>
+	{#each posts as post}
+		<li>
+			<h2>
+				<a href={post.path}>
+					{post.meta.title}
+				</a>
+			</h2>
+			Published {post.meta.date}
+		</li>
+	{/each}
+</ul>
