@@ -5,6 +5,6 @@
 
 <h1>{title}</h1>
 
-<p>Published: {date}</p>
+<p><em>Published: {date}</em></p>
 
 <slot />
