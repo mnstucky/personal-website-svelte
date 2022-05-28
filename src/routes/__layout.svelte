@@ -22,6 +22,7 @@
 
 <footer>
 	<aside>&copy; 2021 - Matt Stucky</aside>
+	<aside>(Thanks to <a href="https://twemoji.twitter.com/">Twemoji</a> for the cool favicon!)</aside>
 </footer>
 
 <style>
