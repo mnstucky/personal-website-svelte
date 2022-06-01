@@ -57,8 +57,14 @@
 		}
 	}
 
+	@keyframes flow {
+		to {
+			background-position: 200%;
+		}
+	}
+
 	.hero-text {
-		animation: flow 29s ease-in-out infinite;
+		animation: flow 20s ease-in-out infinite;
 		background: linear-gradient(-61deg, #1505aa, #904e95, #e73c7e, #8b0000);
 		background-size: 299%;
 		-webkit-background-clip: text;
