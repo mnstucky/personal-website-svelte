@@ -11,7 +11,6 @@
 		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
 		rel="stylesheet"
 	/>
-	<script src="https://kit.fontawesome.com/216d5e86f9.js" crossorigin="anonymous"></script>
 </svelte:head>
 
 <Header />

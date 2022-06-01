@@ -48,25 +48,6 @@ a:hover {
 	filter: drop-shadow(0px 0px 8px var(--clr-shadow));
 }
 
-.icons {
-	justify-content: space-evenly;
-	width: 10rem;
-	color: var(--clr-textlight);
-	display: flex;
-	margin: 2rem auto auto;
-}
-
-.icons a:nth-child(3n + 1):hover {
-	color: var(--clr-primary);
-}
-
-.icons a:nth-child(3n + 2):hover {
-	color: var(--clr-secondary);
-}
-
-.icons a:nth-child(3n + 3):hover {
-	color: var(--clr-highlight);
-}
 
 button {
 	background-color: var(--clr-secondary);

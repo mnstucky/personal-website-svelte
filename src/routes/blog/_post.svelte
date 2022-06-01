@@ -1,3 +1,6 @@
+<svelte:head>
+    <link rel="stylesheet" href="/themes/gruvbox.css" />
+</svelte:head>
 <script>
     export let title
     export let date
