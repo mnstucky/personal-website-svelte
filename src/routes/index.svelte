@@ -12,9 +12,9 @@
 		<img width="318" height="319" class="headshot" src="/headshot.png" alt="My smiling face" />
 		<article>
 			<p>
-				I'm a full-stack developer skilled in everything from HTML, CSS, Java, and C++, to Node,
-				Nest.js, React, and Next.js. I'm especially knowledgeable in the Typescript/Javascript
-				ecosystem (and I built this site using SvelteKit, because I love learning new tech!).
+				I'm a full-stack developer focused on web technologies, particularly .NET Core, Blazor,
+				Typescript/Javascript, Node, and React (but I built this site using SvelteKit, because I
+				love learning new tech!).
 			</p>
 			<p>
 				I see coding as a craft. To that end, I write <span class="underlined">clean</span>,
