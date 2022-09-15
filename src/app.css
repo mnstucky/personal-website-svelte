@@ -39,7 +39,6 @@ a:hover {
 	color: var(--clr-secondary);
 }
 
-
 .blogpost {
 	background-color: white;
 	border-radius: 0.5rem;
@@ -47,7 +46,6 @@ a:hover {
 	margin-bottom: 1rem;
 	filter: drop-shadow(0px 0px 8px var(--clr-shadow));
 }
-
 
 button {
 	background-color: var(--clr-secondary);
@@ -61,7 +59,6 @@ button {
 button:hover {
 	background-color: #e09d17;
 }
-
 
 /* Define utility classes */
 
@@ -131,6 +128,17 @@ button:hover {
 	left: 0;
 	right: 0;
 	background: var(--clr-highlight);
+}
+
+.blog-list {
+	list-style: none;
+}
+
+.favicon-aside {
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 1rem;
 }
 
 /* Define variables */

@@ -13,19 +13,19 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 	export const load = async ({ fetch }) => {
-		const posts = await fetch('/api/posts.json')
-		const allPosts = await posts.json()
+		const posts = await fetch('/api/posts.json');
+		const allPosts = await posts.json();
 
 		return {
 			props: {
 				posts: allPosts
 			}
-		}
-	}
+		};
+	};
 </script>
 
 <script>
-	export let posts
+	export let posts;
 </script>
 
 <svelte:head>
@@ -33,7 +33,7 @@
 </svelte:head>
 
 <h2 class="blockheading">Blog</h2>
-<ul>
+<ul class="blog-list">
 	{#each posts as post}
 		<li>
 			<h2>

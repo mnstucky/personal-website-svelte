@@ -11,7 +11,7 @@
 				<a href="/blog">Blog</a>
 			</li>
 			<li>
-				<a href="/portfolio">Portfolio</a>
+				<a href="/resume">Resume</a>
 			</li>
 		</ul>
 	</nav>
